@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <div class="title-with-lines">
+      <hr class="line" />
+      <div class="title">YAY! It’s BOGO</div>
+      <hr class="line" />
+    </div>
+
+    <!-- Option 1 -->
+    <label class="option collapsed" data-option="1">
+      <input type="radio" name="units" checked />
+      <div class="label">
+        <div>
+          <strong>1 Unit</strong> <span class="discount">10% Off</span><br />
+          <small>Standard Price</small>
+        </div>
+        <div class="size-color">
+          <div class="row header">
+            <div class="col-size">Size</div>
+            <div class="col">Colour</div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label>#1</label>
+              <select><option>S</option><option>M</option><option>L</option></select>
+            </div>
+            <div class="col">
+              <select><option>Black</option><option>Red</option><option>Green</option></select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="price">
+        $10.00 USD<br />
+        <s>$24.00 USD</s>
+      </div>
+    </label>
+
+    <!-- Option 2 -->
+    <label class="option expanded most-popular" data-option="2">
+      <span class="badge">MOST POPULAR</span>
+      <input type="radio" name="units" />
+      <div class="label">
+        <div>
+          <strong>2 Unit</strong> <span class="discount">20% Off</span>
+        </div>
+        <div class="size-color">
+          <div class="row header">
+            <div class="col-size">Size</div>
+            <div class="col">Colour</div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label>#1</label>
+              <select><option>S</option><option>M</option><option>L</option></select>
+            </div>
+            <div class="col">
+              <select><option>Black</option><option>Red</option><option>Green</option></select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <label>#2</label>
+              <select><option>S</option><option>M</option><option>L</option></select>
+            </div>
+            <div class="col">
+              <select><option>Black</option><option>Red</option><option>Green</option></select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="price">
+        $18.00 USD<br />
+        <s>$24.00 USD</s>
+      </div>
+    </label>
+
+    <!-- Option 3 -->
+    <label class="option collapsed" data-option="3">
+      <input type="radio" name="units" />
+      <div class="label">
+        <div>
+          <strong>3 Unit</strong> <span class="discount">30% Off</span>
+        </div>
+        <div class="size-color">
+          <div class="row header">
+            <div class="col-size">Size</div>
+            <div class="col">Colour</div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <label>#1</label>
+              <select><option>S</option><option>M</option><option>L</option></select>
+            </div>
+            <div class="col">
+              <select><option>Black</option><option>Red</option><option>Green</option></select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <label>#2</label>
+              <select><option>S</option><option>M</option><option>L</option></select>
+            </div>
+            <div class="col">
+              <select><option>Black</option><option>Red</option><option>Green</option></select>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col">
+              <label>#3</label>
+              <select><option>S</option><option>M</option><option>L</option></select>
+            </div>
+            <div class="col">
+              <select><option>Black</option><option>Red</option><option>Green</option></select>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="price">
+        $24.00 USD<br />
+        <s>$24.00 USD</s>
+      </div>
+    </label>
+
+    <div class="footer">
+      <div class="footer-row">
+        <div class="free-delivery">Free Delivery</div>
+        <div class="total">Total : $18.00 USD</div>
+      </div>
+      <button class="add-to-cart">
+        <span class="plus-icon">+</span> Add to Cart
+      </button>
+      <div class="powered">@ Powered by Pumper</div>
+    </div>
+  </div>
+</body>
+</html>
